@@ -6,6 +6,9 @@ A foundational C library re-implementing key standard functions for memory, stri
 
 ## Table of Contents
 - [Overview](#-overview)
+- [Features](#-Features)
+- [Installation](#-Installation)
+- [Implementation example](#-Implementation example)
 
 --
 
@@ -55,8 +58,9 @@ compilation
   cc -Wall -Wextra -Werror main.c libft.a
   ./a.out
 
---
+---
 
+```c
 #include "libft.h"
 #include <stdop.h>
 
@@ -69,4 +73,5 @@ int  main() {
   
   return 0;
 }
---
+```
+---
