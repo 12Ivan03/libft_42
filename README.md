@@ -20,8 +20,22 @@ This project is a personal reimplementation of the C standard library. It was de
 
 ## Features
 
-### Implemented Categories: 
+### ✅ Implemented Categories:
 
+#### 🧠 Memory Functions
+- `ft_memset`, `ft_memcpy`, `ft_memmove`, `ft_bzero`, `ft_calloc`, `ft_memcmp`, `ft_memchr`
+
+#### 🔤 String Functions
+- `ft_strlen`, `ft_strdup`, `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_strlcpy`, `ft_strlcat`, `ft_strnstr`, `ft_strjoin`, `ft_substr`, `ft_strtrim`, `ft_split`
+
+#### 🔠 Character Check & Conversion
+- `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_toupper`, `ft_tolower`
+
+#### 🔢 Conversion
+- `ft_atoi`, `ft_itoa`
+
+#### 📁 File Descriptor Output
+- `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`
 
 --
 
@@ -30,3 +44,29 @@ This project is a personal reimplementation of the C standard library. It was de
 ```bash
 git clone https://github.com/yourusername/libft.git
 cd libft
+make 
+```
+
+--
+
+## Implementation example
+
+compilation 
+  cc -Wall -Wextra -Werror main.c libft.a
+  ./a.out
+
+--
+
+#include "libft.h"
+#include <stdop.h>
+
+int  main() {
+  char *original = "Codam";
+  char *copy = ft_strdup(original);
+  
+  printf("Original: %s\nCopy: %s \n", original, copy);
+  free(copy);
+  
+  return 0;
+}
+--
