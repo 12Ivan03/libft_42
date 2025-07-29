@@ -10,7 +10,7 @@ A foundational C library re-implementing key standard functions for memory, stri
 - [Installation](#-Installation)
 - [Implementation example](#-Implementation example)
 
---
+
 
 ## Overview
 This project is a personal reimplementation of the C standard library. It was developed in a restricted environment (no external libraries, limited functions) and demonstrates low-level programming skills including:
@@ -19,7 +19,7 @@ This project is a personal reimplementation of the C standard library. It was de
 - String parsing
 - Pointer arithmetic
 
---
+
 
 ## Features
 
@@ -40,7 +40,6 @@ This project is a personal reimplementation of the C standard library. It was de
 #### 📁 File Descriptor Output
 - `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`
 
---
 
 ## Installation
 
@@ -50,7 +49,6 @@ cd libft
 make 
 ```
 
---
 
 ## Implementation example
 
@@ -58,7 +56,6 @@ compilation
   cc -Wall -Wextra -Werror main.c libft.a
   ./a.out
 
----
 
 ```c
 #include "libft.h"
