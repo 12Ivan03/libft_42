@@ -5,3 +5,28 @@ A foundational C library re-implementing key standard functions for memory, stri
 
 
 ## Table of Contents
+- [Overview](#-overview)
+
+--
+
+## Overview
+This project is a personal reimplementation of the C standard library. It was developed in a restricted environment (no external libraries, limited functions) and demonstrates low-level programming skills including:
+
+- Memory manipulation
+- String parsing
+- Pointer arithmetic
+
+--
+
+## Features
+
+### Implemented Categories: 
+
+
+--
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/libft.git
+cd libft
