@@ -6,19 +6,13 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 12:54:09 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:16:25 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:07:54 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
-	{
 		return (1);
-	}
-	else
-	{
-		return (0);
-	}
 	return (0);
 }

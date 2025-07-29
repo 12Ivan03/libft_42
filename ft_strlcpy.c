@@ -6,7 +6,7 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:41:55 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:21:35 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:16:18 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 
 	i = 0;
 	if (size == 0)
-	{
 		return (ft_strlen(src));
-	}
 	while (src[i] && i < size - 1)
 	{
 		dst[i] = src[i];

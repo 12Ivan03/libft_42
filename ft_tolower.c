@@ -6,18 +6,13 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 19:32:16 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:24:07 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:29:53 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
-	{
 		return (c + 32);
-	}
-	else
-	{
-		return (c);
-	}
+	return (c);
 }

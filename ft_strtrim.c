@@ -6,7 +6,7 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 13:43:42 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/19 15:25:10 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:26:49 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,7 @@ static int	is_in_set(char c, char const *set)
 	while (set[i] != '\0')
 	{
 		if (set[i] == c)
-		{
 			return (1);
-		}
 		i++;
 	}
 	return (0);

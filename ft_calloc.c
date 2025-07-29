@@ -6,7 +6,7 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 10:33:59 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:31:16 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:07:21 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	total = nmemb * size;
 	if (nmemb > 0 && size > 0)
-	{
 		if (!(total % nmemb == 0) || !(total % size == 0))
 			return (NULL);
-	}
 	ptr = malloc(total);
 	if (ptr == NULL)
 		return (NULL);

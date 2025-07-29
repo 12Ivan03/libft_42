@@ -6,7 +6,7 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 17:00:07 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/19 16:27:02 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:13:25 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,9 +48,7 @@ static void	find_start_end_of_str(char const *s, char c, int *start, int *i)
 static void	*free_str_from_substr(char **arr_ptrs, int arr_position)
 {
 	while (arr_position > 0)
-	{
 		free(arr_ptrs[--arr_position]);
-	}
 	free(arr_ptrs);
 	return (NULL);
 }

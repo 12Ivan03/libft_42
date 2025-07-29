@@ -6,18 +6,13 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 19:14:13 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:23:43 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:30:01 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
-	{
 		return (c - 32);
-	}
-	else
-	{
-		return (c);
-	}
+	return (c);
 }

@@ -6,19 +6,13 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 12:34:04 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/08 13:18:13 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:07:39 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
-	{
 		return (1);
-	}
-	else
-	{
-		return (0);
-	}
 	return (0);
 }

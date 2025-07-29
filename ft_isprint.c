@@ -6,19 +6,13 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 14:22:57 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:18:00 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:08:03 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
-	{
-		return (9);
-	}
-	else
-	{
-		return (0);
-	}
+		return (1);
 	return (0);
 }

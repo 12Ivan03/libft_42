@@ -6,7 +6,7 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 10:51:59 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/19 16:27:14 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:10:45 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,22 +26,6 @@ static void	ft_convert_i_to_a(char *num_str, int len, int *number, int neg)
 		num_str[0] = '-';
 }
 
-static int	ft_neg(int *n)
-{
-	if (*n < 0)
-		return (-1);
-	else
-		return (1);
-}
-
-static int	ft_len(int *n)
-{
-	if (*n < 0)
-		return (1);
-	else
-		return (0);
-}
-
 char	*ft_itoa(int n)
 {
 	int		len;
@@ -49,8 +33,8 @@ char	*ft_itoa(int n)
 	int		number;
 	char	*num_str;
 
-	neg = ft_neg(&n);
-	len = ft_len(&n);
+	neg = n < 0 ? -1 : 1;
+	len = n < 0 ? 1 : 0;
 	number = n * neg;
 	if (n == 0)
 		return (ft_strdup("0"));

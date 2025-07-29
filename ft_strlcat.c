@@ -6,7 +6,7 @@
 /*   By: ipavlov <ipavlov@student.codam.nl>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 15:42:35 by ipavlov           #+#    #+#             */
-/*   Updated: 2024/10/21 13:23:08 by ipavlov          ###   ########.fr       */
+/*   Updated: 2025/07/29 13:16:08 by ipavlov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	remain = size - dst_len;
 	i = 0;
 	if (size <= dst_len)
-	{
 		return (size + src_len);
-	}
 	while (i < remain - 1 && src[i])
 	{
 		dst[dst_len + i] = src[i];
