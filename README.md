@@ -22,6 +22,7 @@ This project is a personal reimplementation of the C standard library. It was de
 - Memory manipulation
 - String parsing
 - Pointer arithmetic
+- Linked list - Custom data structures
 
 ---
 
@@ -43,6 +44,11 @@ This project is a personal reimplementation of the C standard library. It was de
 
 #### 📁 File Descriptor Output
 - `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`
+
+#### 🔗 Bonus: Linked List Utilities
+- `ft_lstnew`, `ft_lstadd_front`, `ft_lstadd_back`, `ft_lstlast`, `ft_lstsize`
+- `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
+
 
 ---
 
